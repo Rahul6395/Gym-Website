@@ -1,0 +1,1000 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.ourProCon {
+  width: 100%;
+  height: 68rem;
+  background: white;margin:0 auto;
+}
+.ourProChie {
+  width: 115rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 3rem;
+  
+}
+
+.ourProTitle {
+  width: 55rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ourProTitle p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: grey;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+.ourProhed{position: relative;}
+.ourProhed h1 {font-size: 4.5rem;padding-left: 1rem;position:relative;}
+
+.ourProhed h1::before{
+  width:.4rem;
+  height:4.2rem;
+  content:"";
+  display: block;
+  position: absolute;
+  top:.5rem;
+  left:0;
+  background-color: tomato;
+  border-radius: 1rem;
+}
+
+.ourProVideoCon {
+  width: 54rem;
+  height: 60rem;
+  background-image: url("../img/payDis1.jpg");
+  background-repeat: no-repeat;
+  background-position: 80% top;
+  background-size: cover;
+  margin-top: 2rem;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.ourProVideoCon .playBtn {
+    width: 10rem;
+    background-color: rgba(255, 255, 255, 0.501);
+    display: flex;
+justify-content: center;
+    align-items:center ;
+    height:10rem;
+    border-radius: 50%;
+}
+
+.playIcon {
+  width: 8rem;
+  height:8rem;
+  background-color: white;
+  color: red;
+  border-radius: 50%;
+    
+}
+
+
+
+/* =====  B O  X  ======== */
+
+
+/* .ourProTitle h1{font-size: 4rem;} */
+.Boxparent {
+  width: 25rem;
+  height: 22rem;
+  display: inline-block;
+  background-color: rgb(0, 132, 255) ;
+  margin-left: 1.2rem;
+  margin-top: 1.1rem;
+}
+.bg1{color: "#9d69d8";}
+.proBox {
+  width: 21rem;
+  height: 21rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+  margin: 0 auto;
+  color: white;
+}
+
+.proBox p {
+  color: white;
+  text-align: justify;
+  line-height: 1.8rem;
+}
+.proBox .iconHe {
+  color: white;
+  padding: 1rem 0 0 1rem;
+  font-size: 4rem;
+}
+.proBox .boxhea {
+  font-size: 2.3rem;
+  color: white;
+}
+
+
+
+
+
+/* [[[[[[[[   MEDIA QUERY START ]]]]]]]] */
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1230PX  +++++++++ */
+
+@media (max-width: 1230px) {
+
+
+  .ourProCon {
+    height: 64rem;
+  }
+  .ourProChie {
+    width: 104rem;
+  }
+  
+  .ourProTitle {
+    width: 52rem;
+    height: 56rem;
+    
+  }
+  .ourProVideoCon {
+    width: 49rem;
+    height: 57rem;
+      }
+    
+  /* =====  B O  X  ======== */
+  
+  
+  .Boxparent {
+    width: 24rem;
+    height: 21rem;
+  }
+  
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1110PX  +++++++++ */
+
+@media (max-width: 1110px) {
+
+
+  .ourProCon {
+    height: 61rem;
+    
+  }
+  .ourProChie {
+    width: 94rem;
+  }
+  .ourProTitle {
+    width: 48rem;
+    height: 54rem;
+  }
+  .ourProTitle p {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .ourProhed h1 {font-size: 4.3rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:4.1rem;
+    top:.4rem;
+  }
+  .ourProVideoCon {
+    width: 44rem;
+    height: 54rem;
+    background-position: 80% top;
+    margin-top: 2rem;
+    
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 22.5rem;
+    height: 20rem;
+    margin-left: 1.1rem;
+    margin-top: 1rem;
+    
+  }
+  .proBox {
+    width: 20rem;
+    height: 20rem; 
+  }
+  .proBox p {
+        line-height: 1.6rem;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.8rem;
+  }
+  .proBox .boxhea {
+    font-size: 2.1rem;
+  }
+  
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 999PX  +++++++++ */
+
+@media (max-width: 999px) {
+
+
+  .ourProCon {
+    height: 57rem;
+    
+  }
+  .ourProChie {
+    width: 84rem;
+  }
+  .ourProTitle {
+    width: 43rem;
+    height: 48rem; 
+  }
+  .ourProTitle p {
+    font-size: 1.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .ourProhed h1 {font-size: 4.1rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:4rem;
+    top:.4rem;
+  }
+  .ourProVideoCon {
+    width: 38.5rem;
+    height: 50rem;
+    background-position: 80% top;
+    margin-top: 2rem;
+    
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 20rem;
+    height: 18rem;
+    margin-left: 1.1rem;
+    margin-top: 1rem;
+  }
+  .proBox {
+    width: 18rem;
+    height: 17rem; 
+    margin-top: 1rem;
+  }
+  .proBox p {font-size:1.4rem;
+        line-height: 1.6rem;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.7rem;
+  }
+  .proBox .boxhea {
+    font-size: 2.1rem;
+  }
+  
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 894PX  +++++++++ */
+
+@media (max-width: 894px) {
+
+
+  .ourProCon {
+    height: 54rem; 
+  }
+  .ourProChie {
+    width: 75rem;
+  }
+  .ourProTitle {
+    width: 39rem;
+    height: 45rem;  
+  }
+  .ourProTitle p {
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3.9rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:4rem;
+    top:.4rem;
+  }
+  .ourProVideoCon {
+    width: 34rem;
+    height: 46rem;
+    background-position: 80% top;
+    margin-top: 2rem;
+    
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 18rem;
+    height: 17rem;
+    margin-left: 1.1rem;
+    margin-top: 1rem; 
+  }
+  .proBox {
+    width: 16rem;
+    height: 16rem; 
+    margin-top: 1rem;
+  }
+  .proBox p {font-size:1.3rem;
+        line-height: 1.6rem;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.5rem;
+  }
+  .proBox .boxhea {
+    font-size: 2rem;
+  }
+  
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 804PX  +++++++++ */
+
+@media (max-width: 804px) {
+
+
+  .ourProCon {
+    height: 51rem;  
+  }
+  .ourProChie {
+    width: 69rem; 
+  }
+  .ourProTitle {
+    width: 37.4rem;
+    height: 45rem; 
+  }
+  .ourProTitle p {
+    font-size: 1.3rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3.8rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:3.9rem;
+    top:.3rem;
+  }
+  .ourProVideoCon {
+    width: 30rem;
+    height: 45rem;
+    background-position: 75% top;
+    margin-top: 1rem; 
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 17rem;
+    height: 16rem;
+    margin-left: 1.1rem;
+    margin-top: 1rem;
+  }
+  .proBox {
+    width: 15.2rem;
+    height: 15rem; 
+    margin-top: .5rem;
+  }
+  .proBox p {font-size:1.2rem;
+        line-height: 1.5rem;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.3rem;
+  }
+  .proBox .boxhea {
+    font-size: 1.9rem;
+  }
+  
+}
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 744PX  +++++++++ */
+
+@media (max-width: 744px) {
+
+
+  .ourProCon {
+    height: 48rem;
+  }
+  .ourProChie {
+    width: 61rem;
+  }
+  .ourProTitle {
+    width: 32.5rem;
+    height: 43rem; 
+  }
+  .ourProTitle p {
+    font-size: 1.2rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3.6rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:3.7rem;
+    top:.3rem;
+  }
+  .ourProVideoCon {
+    width: 26rem;
+    height: 43rem;
+    background-position: 75% top;
+    margin-top: 1rem;  
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 1rem;
+    margin-top: .9rem;
+  }
+  .proBox {
+    width: 13.5rem;
+    height: 14rem; 
+    margin-top: .5rem;
+  }
+  .proBox p {font-size:1.2rem;
+        line-height: 1.5rem;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.2rem;
+  }
+  .proBox .boxhea {
+    font-size: 1.8rem;
+  }
+  
+}
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 664PX  +++++++++ */
+
+@media (max-width: 664px) {
+
+
+  .ourProCon {
+    height: 45.5rem; 
+  }
+  .ourProChie {
+    width: 55.5rem; 
+  }
+  .ourProTitle {
+    width: 30rem;
+    height: 40rem; 
+  }
+  .ourProTitle p {
+    font-size: 1.2rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3.5rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:3.7rem;
+    top:.3rem;
+  }
+  .ourProVideoCon {
+    width: 23.2rem;
+    height: 40rem;
+    background-position: 75% top;
+    margin-top: 1rem;
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 13.9rem;
+    height: 14.3rem;
+    margin-left: 1rem;
+    margin-top: .9rem; 
+  }
+  .proBox {
+    width: 12rem;
+    height: 13rem; 
+    margin-top: .5rem;
+  }
+  .proBox p {font-size:1.1rem;
+        line-height: 1.5rem;
+        word-wrap: break-all;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.1rem;
+  }
+  .proBox .boxhea {
+    font-size: 1.7rem;
+  } 
+}
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 599PX  +++++++++ */
+
+@media (max-width: 599px) {
+
+
+  .ourProCon {
+    height: 87rem;
+  }
+  .ourProChie {
+    width: 44rem;
+    height:90rem;
+    display: inherit;
+    margin: 0 auto;
+  }
+  .ourProTitle {
+    width: 40rem;
+    height: 45rem;
+    margin:0 auto;margin-top: 3rem;
+  }
+  .ourProTitle p {
+    font-size: 1.3rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3.7rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:3.8rem;
+    top:.3rem;
+  }
+  .ourProVideoCon {
+    width: 31rem;
+    height: 35rem;
+    margin:0 auto;
+    margin-top: 3rem;
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 18rem;
+    height: 17rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .proBox {
+    width: 16rem;
+    height: 16rem; 
+    margin-top: .5rem;
+  }
+  .proBox p {font-size:1.3rem;
+        line-height: 1.5rem;
+        word-wrap: break-all;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.8rem;
+  }
+  .proBox .boxhea {
+    font-size: 2.2rem;
+  } 
+}
+
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 454PX  +++++++++ */
+
+@media (max-width: 454px) {
+
+
+  .ourProCon {
+    height: 84.5rem;
+    margin:auto 0;
+  }
+  .ourProChie {
+    width: 31rem;
+    height:84rem;
+    margin: 0 auto;
+  }
+  .ourProTitle {
+    width: 31rem;
+    height: 46rem;
+    margin:0 auto;margin-top: 3rem;
+  }
+  .ourProTitle p {
+    font-size: 1.2rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3.5rem;}
+  .ourProhed h1::before{
+    width:.3rem;
+    height:3.6rem;
+    top:.3rem;
+  }
+  .ourProVideoCon {
+    width: 28rem;
+    height: 32rem;
+    background-position: 75% top;
+    margin:0 auto;
+    margin-top: 2rem;
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 14.5rem;
+    height: 16rem;
+    margin-left: .8rem;
+    margin-top: .9rem; 
+  }
+  .proBox {
+    width: 13rem;
+    height: 15rem; 
+    margin-top: 0rem;
+  }
+  .proBox p {font-size:1.1rem;
+        line-height: 1.5rem;
+        word-wrap: break-all;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.5rem;
+  }
+  .proBox .boxhea {
+    font-size: 1.9rem;
+  } 
+}
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 354PX  +++++++++ */
+
+@media (max-width: 354px) {
+
+
+  .ourProCon {
+    height: 71.5rem; 
+    margin:auto 0;
+  }
+  .ourProChie {
+    width: 27rem;
+    height:70rem;
+    margin: 0 auto;
+  }
+  .ourProTitle {
+    width: 27rem;
+    height: 40rem;
+    margin:0 auto;margin-top: 2rem;
+  }
+  .ourProTitle p {
+    font-size: 1.1rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3.2rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:3.2rem;
+    top:.4rem;
+  }
+  .ourProVideoCon {
+    width: 23rem;
+    height: 27rem;
+    background-position: 75% top;
+    margin:0 auto;
+    margin-top: 1.6rem;
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {
+    width: 12.7rem;
+    height: 14rem;
+    margin-left: .7rem;
+    margin-top: .7rem;
+  }
+  .proBox {
+    width: 11.8rem;
+    height: 12rem; 
+    margin-top: .3rem;
+  }
+  .proBox p {font-size:1rem;
+        line-height: 1.3rem;
+        word-wrap: break-all;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.2rem;
+  }
+  .proBox .boxhea {
+    font-size: 1.7rem;
+  } 
+}
+
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 304PX  +++++++++ */
+
+@media (max-width: 304px) {
+
+
+  .ourProCon {
+    height: 106rem;
+    margin:auto 0;
+  }
+  .ourProChie {
+    width: 22rem;
+    height:80rem;
+    margin: 0 auto;
+    
+  }
+  .ourProTitle {
+    width: 22rem;
+    height: 80rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourProTitle p {
+    font-size: 1.1rem;
+    padding-top:.5rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3.3rem;}
+  .ourProhed h1::before{
+    width:.4rem;
+    height:3.4rem;
+    top:.3rem;
+  }
+  .ourProVideoCon {
+    width: 18rem;
+    height: 22rem;
+    background-position: 75% top;
+    margin:0 auto;
+    margin-top: .6rem;
+  }
+  
+  .ourProVideoCon .playBtn {
+      width: 10rem;
+      height: 10rem;
+  }
+  
+  .playIcon {
+    width: 8rem;
+    height:8rem;   
+  }
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {display: block;
+    width: 17rem;
+    height: 16rem;
+    margin-left: 0rem;
+    margin-top: 1rem;  box-shadow: .3rem .2rem .2rem grey;
+  }
+  .proBox {
+    width: 15rem;
+    height: 15rem; 
+    margin-top: 1rem;
+  }
+  .proBox p {font-size:1.1rem;
+        line-height: 1.3rem;
+        word-wrap: break-all;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.7rem;
+  }
+  .proBox .boxhea {
+    font-size: 2.1rem;
+  } 
+}
+
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 264PX  +++++++++ */
+
+@media (max-width: 264px) {
+
+
+  .ourProCon {
+    height: 102rem;
+  }
+  .ourProChie {
+    width: 20rem;
+    height:79rem;
+  }
+  .ourProTitle {
+    width: 20rem;
+    height: 77rem;
+  }
+  .ourProhed p {
+    font-size: 1.1rem;
+    padding-left:.9rem;
+    padding-bottom:.5rem;
+  }
+  .ourProhed h1 {font-size: 3rem;}
+  .ourProhed h1::before{
+    width:.3rem;
+    height:3.1rem;
+    top:.3rem;
+  }
+  .ourProVideoCon {
+    width: 18rem;
+    height: 21rem;
+    margin-top: 1rem;
+  }
+  
+
+  /* =====  B O  X  ======== */
+  
+  .Boxparent {display: block;
+    width: 16rem;
+    height: 15rem;
+    margin-top: .9rem;
+    box-shadow: .3rem .2rem .2rem grey;
+  }
+  .proBox {
+    width: 14.5rem;
+    height: 13.3rem; 
+    margin-top: 1rem;
+  }
+  .proBox p {font-size:1rem;
+        line-height: 1.3rem;
+        word-wrap: break-all;
+  }
+  .proBox .iconHe {
+    padding: 1rem 0 0 1rem;
+    font-size: 3.5rem;
+  }
+  .proBox .boxhea {
+    font-size: 2rem;
+  } 
+}

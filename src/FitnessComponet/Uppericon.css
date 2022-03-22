@@ -1,0 +1,97 @@
+.hideIcon{
+    display: none;
+  }
+
+ .iconcontainer{position: absolute;
+} 
+.upIcon{display:block;
+    font-size:4rem;
+  color:#00eeff;
+  position:fixed;
+  top:52rem;
+  right:3rem;
+  z-index:9999;
+  cursor: pointer;}
+
+  
+
+/* [[[[[[[[   MEDIA QUERY START ]]]]]]]] */
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1300PX  +++++++++ */
+
+@media (max-width: 1305px) {
+  
+  
+    .upIcon{
+      font-size:4rem;
+    position:fixed;
+    top:50rem;
+    right:3rem;
+    }}
+
+    @media(max-width:1220px) {
+
+        .upIcon{
+            font-size:4rem;
+          position:fixed;
+          top:50rem;
+          right:1.5rem;
+          }
+        }
+/* --------------  MEDIA SCREEN MAX-WIDTH = 999PX  ----------- */
+
+@media(max-width:999px) {
+
+    .upIcon{
+        font-size:4rem;
+      position:fixed;
+    top:49rem;
+      right:1.5rem;
+      }
+}
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 893PX  ----------- */
+
+
+@media(max-width:893px) {
+    .upIcon{
+      font-size:3.6rem;
+    position:fixed;
+    top:50rem;
+    right:1.5rem;
+    }
+}
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 774PX  ----------- */
+
+
+@media(max-width:774px) {
+    .upIcon{
+        font-size:3.4rem;
+      position:fixed;
+      top:50rem;
+      right:1.5rem;
+    }
+}
+
+@media(max-width:664px) {
+    .upIcon{
+        font-size:3.2rem;
+      position:fixed;
+      top:40rem;
+      right:1.4rem;
+    }
+}
+
+
+@media(max-width:304px) {
+    .upIcon{
+        font-size:2.8rem;
+      position:fixed;
+      top:40rem;
+      right:1.5rem;
+    }
+}

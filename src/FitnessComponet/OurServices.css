@@ -1,0 +1,644 @@
+*{margin:0;padding:0 ;box-sizing: border-box;}
+html{
+    font-size: 62.5%;
+}
+
+.ourSerContainer{ width:100%;
+    height:78rem;
+    background-image: url(../img/trainer2.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+z-index: 888}
+
+.ourSerChield{
+    width:100%;
+    max-width: 135rem;
+    min-width: 10rem;
+    height:78rem;
+background-color:rgba(0, 0, 0, 0.637);
+
+}
+
+.ourSerChield .ourTitle{
+    width:77rem;
+    height:29rem;
+    padding-top:7rem;
+    padding-left: 10rem;
+    color:white; 
+    
+}
+.ourTitle h2{font-size: 2.5rem;
+    color:tomato;
+    padding-bottom: 1.5rem;position: relative;}
+.ourTitle h1{font-size: 3.7rem;
+font-weight: 900;
+}
+.beforeOurser{
+    padding-right: 7.4rem;
+}
+.beforeOurser::before{
+    width:5.5rem;
+    height:.3rem;
+    content:'';
+    display: block;
+    position: absolute;
+    top:1.7rem;
+    background-color: tomato;
+}
+
+
+
+
+/* [[[[[[[[   MEDIA QUERY START ]]]]]]]] */
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1290PX  +++++++++ */
+
+@media (max-width: 1290px) {
+
+    .cardFlex{display: flex;
+        justify-content: space-between;
+        width:105rem;
+        align-items:center; 
+        margin:0 auto;
+    
+        }
+    .ourSerContainer{ 
+        height:72rem;
+        background-position: center;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:72rem;
+    }
+    
+    .ourSerChield .ourTitle{
+        width:105rem;
+        height:27rem;
+        padding-top:7rem;
+        padding-left: 0rem; 
+        margin: 0 auto;
+              
+    }
+    .ourTitle h2{font-size: 2.3rem;
+        padding-bottom: 1.4rem;}
+    .ourTitle h1{font-size: 3.5rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .beforeOurser{
+        padding-right: 7.6rem;
+    }
+    .beforeOurser::before{
+        width:6rem;
+        height:.3rem;
+        top:1.5rem;
+    }
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1110PX  +++++++++ */
+
+@media (max-width: 1110px) {
+
+    .cardFlex{
+        width:92rem;
+        }
+    .ourSerContainer{ 
+        height:65rem;
+        background-position: center;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:65rem; 
+        
+    }
+    
+    .ourSerChield .ourTitle{
+        width:92rem;
+        height:24rem;
+        padding-top:6rem;
+      
+          
+    }
+    .ourTitle h2{font-size: 2.2rem;
+        padding-bottom: 1.4rem;}
+    .ourTitle h1{font-size: 3.4rem;
+        
+    }
+    .beforeOurser{
+        padding-right: 7.5rem;
+    }
+    .beforeOurser::before{
+        width:6rem;
+        height:.3rem;
+        top:1.5rem;
+
+    }
+
+
+}
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 999PX  +++++++++ */
+
+@media (max-width: 999px) {
+
+    .cardFlex{
+        width:81rem;
+        }
+    .ourSerContainer{ 
+        height:58rem;
+        background-position: center;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:58rem;
+        }
+    
+    .ourSerChield .ourTitle{
+        width:81rem;
+        height:22rem;
+        padding-top:5rem;
+        
+    }
+    .ourTitle h2{font-size: 2.2rem;
+        padding-bottom: 1.4rem;}
+    .ourTitle h1{font-size: 3.3rem;
+    }
+    .beforeOurser{
+        padding-right: 7.3rem;
+    }
+    .beforeOurser::before{
+        width:5.8rem;
+        height:.3rem;
+        top:1.5rem;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 893PX  +++++++++ */
+
+@media (max-width: 893px) {
+
+    .cardFlex{
+        width:74rem;
+        }
+    .ourSerContainer{ 
+        height:56rem;
+        
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:56rem;
+        }
+    
+    .ourSerChield .ourTitle{
+        width:74rem;
+        height:22rem;
+        padding-top:5rem;
+
+        
+    }
+    .ourTitle h2{font-size: 2.2rem;
+        padding-bottom: 1.4rem;}
+    .ourTitle h1{font-size: 3.3rem;
+    }
+    .beforeOurser{
+        padding-right: 7.3rem;
+    }
+    .beforeOurser::before{
+        width:5.8rem;
+        height:.3rem;
+        top:1.4rem;
+
+    }
+}
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 803PX  +++++++++ */
+
+@media (max-width: 803px) {
+
+    .cardFlex{
+        width:69rem;
+
+        }
+    .ourSerContainer{ 
+        height:49rem;
+        background-position: center;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:49rem;
+        }
+    
+    .ourSerChield .ourTitle{
+        width:69rem;
+        height:19rem;
+        padding-top:4rem;
+        
+        
+    }
+    .ourTitle h2{font-size: 2.1rem;
+        padding-bottom: 1.2rem;}
+    .ourTitle h1{font-size: 3rem;
+    }
+    .beforeOurser{
+        padding-right: 6.6rem;
+    }
+    .beforeOurser::before{
+        width:5.5rem;
+        height:.3rem;
+        top:1.4rem;
+
+    }
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 744PX  +++++++++ */
+
+@media (max-width: 744px) {
+
+    .cardFlex{
+        width:61rem;
+    
+        }
+    .ourSerContainer{ 
+        height:43rem;
+        background-position: center;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:43.6rem;
+        }
+    
+    .ourSerChield .ourTitle{
+        width:61rem;
+        height:17rem;
+        padding-top:3rem;
+            
+    }
+    .ourTitle h2{font-size: 2rem;
+        padding-bottom: 1rem;}
+    .ourTitle h1{font-size: 2.9rem;
+        
+    }
+    .beforeOurser{
+        padding-right: 6.4rem;
+    }
+    .beforeOurser::before{
+        width:5.3rem;
+        height:.3rem;
+        top:1.4rem;
+
+    }
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 664PX  +++++++++ */
+
+@media (max-width: 664px) {
+
+    .cardFlex{
+        width:54.3rem;
+        
+        }
+    .ourSerContainer{ 
+        height:40rem;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:40rem;
+        }
+    
+    .ourSerChield .ourTitle{
+        width:55rem;
+        height:16rem;
+        padding-top:2.4rem;
+        
+    }
+    .ourTitle h2{font-size: 2rem;
+        padding-bottom: .6rem;}
+    .ourTitle h1{font-size: 2.8rem;
+       
+    }
+    .beforeOurser{
+        padding-right: 6.4rem;
+    }
+    .beforeOurser::before{
+        width:5.3rem;
+        height:.3rem;
+        top:1.4rem;
+
+    }
+}
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 599PX  +++++++++ */
+
+@media (max-width: 599px) {
+
+    .cardFlex{
+        width:47rem;
+        
+        }
+    .ourSerContainer{ 
+        height:35rem;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:35rem;
+        }
+    
+    .ourSerChield .ourTitle{
+        width:47rem;
+        height:14rem;
+        padding-top:2rem;
+        padding-left: 0rem;
+               
+    }
+    .ourTitle h2{font-size: 1.8rem;
+        padding-bottom: .4rem;}
+    .ourTitle h1{font-size: 2.5rem;
+    line-height: 3rem;}
+
+    .beforeOurser{
+        padding-right: 5rem;
+    }
+    .beforeOurser::before{
+        width:4rem;
+        height:.2rem;
+        top:1.3rem;
+
+    }
+}
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 504PX  +++++++++ */
+
+@media (max-width: 504px) {
+
+    .cardFlex{
+        width:41.6rem;
+        }
+    .ourSerContainer{ 
+        height:30rem;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:30rem;
+        }
+    
+    .ourSerChield .ourTitle{
+        width:42rem;
+        height:11.6rem;
+        padding-top:1.8rem;
+         
+    }
+    .ourTitle h2{font-size: 1.6rem;
+        padding-bottom: .4rem;}
+    .ourTitle h1{font-size: 2.3rem;
+    line-height: 2.6rem;}
+
+    .beforeOurser{
+        padding-right: 4.3rem;
+    }
+    .beforeOurser::before{
+        width:3.5rem;
+        height:.2rem;
+        top:1.2rem;
+
+    }
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 454PX  +++++++++ */
+
+@media (max-width: 454px) {
+
+    .cardFlex{
+        flex-direction: column;
+        justify-content: space-between;
+        width:26rem;
+        
+        }
+    .ourSerContainer{ 
+        height:105rem;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:105rem;
+        }
+    
+    .ourSerChield .ourTitle{
+        width:35rem;
+        height:14rem;
+        padding-top:4rem;
+        
+        
+    }
+    .ourTitle h2{font-size: 1.8rem;
+        padding-bottom: .4rem;}
+    .ourTitle h1{font-size: 2.6rem;
+    line-height: 2.6rem;}
+
+    .beforeOurser{
+        padding-right: 4.3rem;
+    }
+    .beforeOurser::before{
+        width:3.5rem;
+        height:.2rem;
+        top:1.3rem;
+
+    }
+}
+
+
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 384PX  ----------- */
+
+
+
+@media(max-width:384px) {
+    .ourSerChield .ourTitle{
+        width:29rem;
+        height:15rem;
+        padding-top:4rem;
+        
+        
+    }
+
+}
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 354PX  +++++++++ */
+
+@media (max-width: 354px) {
+
+    .cardFlex{
+        width:22rem;
+        }
+    .ourSerContainer{ 
+        height:94rem;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:94rem;
+        }
+    
+        .ourSerChield .ourTitle{
+            width:27rem;
+            height:15rem;
+            padding-top:2.6rem;
+                      
+        }
+    
+    .ourTitle h2{font-size: 1.6rem;
+        padding-bottom: .4rem;}
+    .ourTitle h1{font-size: 2.4rem;
+    line-height: 2.5rem;}
+
+    .beforeOurser{
+        padding-right: 4.3rem;
+    }
+    .beforeOurser::before{
+        width:3.5rem;
+        height:.2rem;
+        top:1.2rem;
+
+    }
+}
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 304PX  +++++++++ */
+
+@media (max-width: 304px) {
+
+    .cardFlex{
+        width:19rem;
+        
+        }
+    .ourSerContainer{ 
+        height:82.5rem;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:82.5rem;
+        }
+    
+        .ourSerChield .ourTitle{
+            width:20rem;
+            height:13rem;
+            padding-top:2.6rem;
+                      
+        }
+    
+    .ourTitle h2{font-size: 1.3rem;
+        padding-bottom: .4rem;}
+    .ourTitle h1{font-size: 1.8rem;
+    line-height: 2.6rem;}
+
+    .beforeOurser{
+        padding-right: 3.8rem;
+    }
+    .beforeOurser::before{
+        width:3rem;
+        height:.2rem;
+        top:1rem;
+
+    }
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 274PX  +++++++++ */
+
+@media (max-width: 264px) {
+
+    .cardFlex{
+        width:16rem;
+    
+        }
+    .ourSerContainer{ 
+        height:74rem;
+      }
+    
+    .ourSerChield{
+        width:100%;
+        height:74rem;
+        }
+    
+        .ourSerChield .ourTitle{
+            width:19rem;
+            height:11rem;
+            padding-top:2.6rem;
+                      
+        }
+    
+    .ourTitle h2{font-size: 1.2rem;
+        padding-bottom: .4rem;}
+    .ourTitle h1{font-size: 1.7rem;
+    line-height: 2.3rem;}
+
+    .beforeOurser{
+        padding-right: 3.5rem;
+    }
+    .beforeOurser::before{
+        width:2.7rem;
+        height:.2rem;
+        top:.8rem;
+
+    }
+}
+
+

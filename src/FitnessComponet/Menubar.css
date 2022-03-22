@@ -1,0 +1,596 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.NavContainer::before {content:"";display:block;position: absolute;
+  width: 100%;
+  height: 9rem;
+}
+  .NavContainerFixed{
+    width: 100%;
+  height: 9rem;
+  z-index: 1000;  
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:black; 
+}
+
+.NavHeader {
+  width: 125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 1.8rem;
+  left: 5rem;
+  
+}
+
+.NavHeader p {
+  color: white;
+  display: none;
+}
+
+.NavLinkss {
+  width: 80rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  color: white;
+  font-size: 4.5rem;
+}
+
+.link_active {
+  color: red;
+}
+.NavLink {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.link_active {
+  color: tomato;
+}
+
+.Navbutton {
+  width: 21rem;
+  height: 5rem;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+/* [[[[[[[[   MEDIA QUERY START ]]]]]]]] */
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1300PX  +++++++++ */
+
+@media (max-width: 1305px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .NavContainer::before {
+    width: 100%;
+    height: 8rem; 
+  }
+    .NavContainerFixed{  
+    height: 8rem;
+  }
+ 
+
+  .NavHeader {
+    width: 100%;
+    padding-right: 7rem;
+    top:1.8rem;
+    left:3.5rem;
+  }
+
+  .Navbutton {
+    width: 19rem;
+    height: 4.5rem;
+    font-size: 1.9rem;
+  }
+
+  .Logo {
+    font-size: 4.3rem;
+  }
+
+  .NavLinkss {
+    width: 77rem;
+  }
+  .NavLink {
+    font-size: 1.9rem;
+  }
+}
+
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 1110PX  ----------- */
+
+
+@media(max-width:1110px) {
+
+  .NavHeader {
+    padding-right: 6rem;
+    top:1.8rem;
+    left:3.5rem;
+  }
+  .NavLinkss {
+    width: 68rem;
+  }
+  .Navbutton {
+    width: 18rem;
+    height: 4.3rem;
+    font-size: 1.8rem;
+  }
+}
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 999PX  ----------- */
+
+@media(max-width:999px) {
+  html {
+    font-size: 50%;
+  }
+
+ 
+  .NavContainer::before {
+    width: 100%;
+    height: 7rem; 
+  }
+    .NavContainerFixed{  
+    height: 7rem;
+  }
+  
+
+  .NavHeader {
+    width: 100%;
+    padding-right: 5rem;
+    top:1.5rem;
+    left:3.3rem;
+  }
+
+  .Navbutton {
+    width: 17rem;
+    height: 4rem;
+    font-size: 1.7rem;
+  }
+
+  .Logo {
+    font-size: 3.7rem;
+  }
+
+  .NavLinkss {
+    width: 64rem;
+  }
+  .NavLink {
+    font-size: 1.8rem;
+  }
+}
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 893PX  ----------- */
+
+
+@media(max-width:893px) {
+ 
+  .NavContainer::before {
+    width: 100%;
+    height: 7rem; 
+  }
+    .NavContainerFixed{  
+    height: 7rem;
+  }
+  
+  .NavHeader {
+    padding-right: 4rem;
+    top:1.5rem;
+    left:2rem;
+  }
+  .NavLinkss {
+    width: 57rem;
+  }
+  .Navbutton {
+    width: 16rem;
+    height: 3.6rem;
+    font-size: 1.6rem;
+  }
+  .Logo {
+    font-size: 3.4rem;
+  }
+  .NavLink {
+    font-size: 1.7rem;
+  }
+}
+
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 803PX  ----------- */
+
+
+@media(max-width:803px) {
+
+  .upIcon{
+    font-size:3.5rem;
+  position:absolute;
+  top:54rem;
+  right:3rem;
+  }
+  .NavContainer::before {
+    width: 100%;
+    height: 6.5rem; 
+  }
+    .NavContainerFixed{  
+    height: 6.5rem;
+  }
+  
+ 
+  .NavHeader {
+    padding-right: 3rem;
+    top:1.5rem;
+    left:2rem;
+  }
+  .NavLinkss {
+    width: 53rem;
+  }
+  .Navbutton {
+    width: 14.5rem;
+    height: 3.2rem;
+    font-size: 1.4rem;
+  }
+  .Logo {
+    font-size: 3.2rem;
+  }
+  .NavLink {
+    font-size: 1.5rem;
+  font-weight: 550;  }
+}
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 774PX  ----------- */
+
+
+@media(max-width:774px) {
+  
+ 
+  .NavContainer{width:100%;
+    height:7rem;z-index: 1000;
+    position:fixed;top:0;left:0;
+  }
+  .NavContainerFixed{  
+    height: 6.5rem;
+  }
+  .NavContainer::before {display: inherit;position: inherit;
+    width: 100%;
+    height: 0rem; 
+    z-index: inherit;
+  }
+  .NavHeader p {
+    color: white;
+    display: inherit;
+    font-size: 3rem;
+    position: absolute;
+    right:5rem;
+    cursor: pointer;
+  }
+  .Logo {
+    font-size: 3.8rem;
+  }
+  .NavHeader{height:4rem;
+    padding-right: 0;
+    position: relative;
+    
+  }
+  .NavLink {
+    color: white;
+    text-decoration: none;
+    font-size: 2.2rem;
+    display: block;
+    font-weight: 600;
+    padding: .1rem 0;
+    margin-bottom: 1rem;
+    margin:auto 0;
+    border-top:.1rem solid black;
+  }
+
+  .NavLinkss {
+    width: 37rem;
+    height: 31rem;
+    background-color:lightgrey;
+    display: block;
+    margin-top: 36rem;
+    padding-top: 3rem;
+    text-align: center;
+    position: absolute;
+   right:-40rem;  }
+
+   .NavLink:hover{
+     color:black;
+   }
+   .link_active {
+    color: tomato;
+  }
+  .mobile_navbar{
+    position: absolute;
+    right:0;
+    cursor: pointer;
+  }
+
+  .Navbutton {
+    width: 40rem;
+    height: 3.6rem;
+    background: lightgrey;
+    border-bottom:.1rem solid black;
+    display: flex;
+    align-items: center;
+    
+
+  }
+
+}
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 644PX  ----------- */
+
+
+
+@media(max-width:664px) {
+  
+ 
+  .NavContainer{width:100%;
+    height:6.4rem;z-index: 1000;
+    position:fixed;top:0;left:0;
+  }
+  .NavContainerFixed{  
+    height: 6rem;
+  }
+  .NavLink {
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: .6rem;
+    
+  }
+
+.NavLinkss {
+  width: 31rem;
+  height: 28rem;
+  margin-top: 33rem;
+  padding-top: 2.8rem;
+ right:-36rem;  }
+
+ .mobile_navbar{
+  right:0;
+}
+.link_active {
+  color: tomato;
+}
+
+.Navbutton {
+  width: 31rem;
+  height: 3.5rem;
+  
+  
+
+}
+}
+
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 504PX  ----------- */
+
+
+
+@media(max-width:504px) {
+  .NavContainerFixed{  
+    height: 5.5rem;
+  }
+  .NavContainer {
+    height: 5rem; background-color: black; 
+  }
+  .NavHeader{height:4rem;left:2.7rem;top:.7rem;
+  }
+  .NavLink {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: .3rem;
+    padding-right: 3rem;
+  }
+
+.NavLinkss {
+  width: 26rem;
+  height: 24rem;
+  margin-top: 28.4rem;
+  padding-top: 1.4rem;
+ right:-30rem;  }
+
+ .mobile_navbar{
+  right:0;
+}
+.link_active {
+  color: tomato;
+}
+.Logo {
+  font-size: 3.4rem;
+}
+.NavHeader p {
+    font-size: 2.5rem;
+  right:5rem;
+ 
+}
+
+.Navbutton {
+  width: 30rem;
+  height: 3rem;
+  background: lightgrey;
+  border-bottom:.1rem solid black;
+  text-align: center;
+
+}
+
+}
+
+
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 384PX  ----------- */
+
+
+
+@media(max-width:384px) {
+  .NavContainerFixed{  
+    height: 5.5rem;
+  }
+  .NavContainer {
+    height: 4.4rem;  
+  }
+  .NavHeader{height:3.4rem;left:2rem;
+  }
+  .NavLink {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: .1rem;
+    padding-right: 2rem;
+  }
+
+.NavLinkss {
+  width: 22rem;
+  height: 20rem;
+  margin-top: 24rem;
+  padding-top: 1.8rem;
+ right:-23rem;  }
+
+ .mobile_navbar{
+  right:0;
+}
+.link_active {
+  color: tomato;
+}
+.Logo {
+  font-size: 3rem;
+}
+.NavHeader p {
+    font-size: 2.2rem;
+  right:4rem;
+ 
+}
+
+.Navbutton {
+  width: 23rem;
+  height: 3.1rem;
+  
+  
+}
+
+}
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 354PX  ----------- */
+
+
+
+@media(max-width:354px) {
+  .Logo {
+    font-size: 2.7rem;
+  }
+  .NavHeader p {
+    font-size: 2rem;
+  right:3.5rem;
+ 
+}
+
+
+
+}
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 304PX  ----------- */
+
+
+
+@media(max-width:304px) {
+  .Logo {
+    font-size: 2.3rem;
+  }
+  .NavHeader p {
+    font-size: 2.1rem;
+  right:3.5rem;
+ 
+}
+.NavHeader{height:1.6rem;left:1.5rem;top:1.2rem;
+}
+.NavContainer {
+  height: 4rem;  
+}
+.NavLink {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: .1rem;
+  padding-right: 2rem;
+}
+
+.NavLinkss {
+width: 20rem;
+height: 18rem;
+margin-top: 21rem;
+padding-top: 1.3rem;
+right:-23rem;  }
+
+.mobile_navbar{
+right:0;
+}
+.Navbutton{height:2.5rem;
+width:21rem;
+font-size: 1.4rem;}
+
+}
+
+
+
+
+/* --------------  MEDIA SCREEN MAX-WIDTH = 250PX  ----------- */
+
+
+
+@media(max-width:250px) {
+  .Logo {
+    font-size: 2rem;
+  }
+  .NavHeader p {
+    font-size: 1.6rem;
+  right:3.2rem;
+ 
+}
+.NavHeader{height:1.4rem;left:1.3rem;
+}
+.NavContainer {
+  height: 3.8rem;  
+}
+
+}

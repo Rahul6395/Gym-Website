@@ -1,0 +1,1019 @@
+*{margin:0;padding:0;
+box-sizing: border-box;}
+
+html{font-size:62.5%;}
+
+.trainerContainer{
+    width:100%;
+    height:56rem;
+    overflow: hidden;   
+}
+.trainerChield{
+width:120rem;
+height: 55rem;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.trainerTitle{position: relative;}
+.trainerTitle h1{font-size: 4.5rem;}
+.trainerTitle p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: grey;
+    padding-left: 1.6rem;
+    padding-bottom: 2rem;
+  }
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+  .trainerImgContainer{
+      width:100%;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .HoverGymCon{
+      width:35rem;
+      height:38rem;
+      display:inline-block;
+  }
+  .trainerImg{
+      width:35rem;
+      height:38rem; 
+        overflow: hidden;  
+  }
+.trainerImg img{width:35rem;
+height:38rem;
+object-fit: cover;
+transition: all .5s ease-in-out;
+
+}
+
+.trainerHover{width: 35rem;
+    height:38rem;
+    transform: translateY(0);
+    padding-top: 2rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.trainerImg:hover .trainerHover{
+    transform: translateY(-38.6rem);
+    transition: all .5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+.trainerHover h3{
+    font-size: 2rem;
+}
+.trainerHover h3::before{
+    width:2.4rem;
+    height: .3rem;
+    content: "";
+    display: block;
+    position: absolute;
+    top:9.7rem;
+    left:7rem;
+    background-color:tomato;
+    border-radius: 2rem;
+}
+
+.trainerHover h2{font-size: 3.3rem;}
+.trainerHover p{width:20rem;
+    text-align: center;
+font-size: 1.7rem;
+padding-top: 1rem;}
+
+.trainerHover ul,li{list-style: none;
+display: inline-block;
+padding-top: 1rem;}
+
+.trainerHover li{padding-left: 1rem;
+font-size: 2.5rem;}
+
+.trainerHover:hover li{color:rgb(250, 97, 70);}
+
+.trainerHover h2:hover{color:rgb(245, 82, 53);}
+
+
+
+
+/* [[[[[[[[   MEDIA QUERY START ]]]]]]]] */
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1290PX  +++++++++ */
+
+@media (max-width: 1290px) {
+
+
+    .trainerContainer{
+        height:54rem; 
+    }
+    .trainerChield{
+    width:106rem;
+    height: 53rem;
+    }
+    
+    .trainerTitle{
+        width:105rem;
+        height:11rem;
+        margin: 0 auto;
+    }
+    .trainerTitle h1{font-size: 4.5rem;}
+    
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+      .trainerImgContainer{justify-content: space-around;
+      }
+      .HoverGymCon{
+          width:32rem;
+          height:36rem;
+      }
+      .trainerImg{
+        width:32rem;
+        height:36rem;  
+    }
+    .trainerImg img{width:32rem;
+    height:36rem;    
+    }
+    .trainerHover{width: 32rem;
+        height:36rem;
+        transform: translateY(0);
+        padding-top: 0rem;
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-36.6rem);
+    }
+    .trainerHover h3{
+        font-size: 2rem;
+    }
+    .trainerHover h3::before{
+        width:2.4rem;
+        height: .3rem;
+        top:7.7rem;
+        left:5.4rem;
+    }
+    .trainerHover h2{font-size: 3.3rem;}
+    .trainerHover p{width:20rem;
+    font-size: 1.7rem;
+    padding-top: 1rem;}
+    .trainerHover ul,li{
+    padding-top: 1rem;}
+    
+    .trainerHover li{padding-left: 1rem;
+    font-size: 2.5rem;}
+    
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1110PX  +++++++++ */
+
+@media (max-width: 1110px) {
+
+
+    .trainerContainer{
+        height:52rem; 
+    }
+    .trainerChield{
+    width:94rem;
+    height: 51rem;
+    }
+    
+    .trainerTitle{
+        width:96rem;
+        height:10rem;
+    
+    }
+    .trainerTitle h1{font-size: 4.3rem;}
+    
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+      .trainerImgContainer{justify-content: space-between;
+        
+      }
+
+      
+      .HoverGymCon,.trainerImg{
+          width:30rem;
+          height:34rem;
+      }
+     
+    .trainerImg img{width:30rem;
+    height:34rem;    
+    }
+    .trainerHover{width: 30rem;
+        height:34rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-34.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.8rem;
+    }
+    .trainerHover h3::before{
+        width:2.4rem;
+        height: .3rem;
+        top:7.5rem;
+        left:5rem;
+    }
+    .trainerHover h2{font-size: 3.1rem;}
+    .trainerHover p{width:20rem;
+    font-size: 1.6rem;
+    padding-top: 1rem;}
+    .trainerHover ul,li{
+    padding-top: 1rem;}
+    
+    .trainerHover li{padding-left: 1rem;
+    font-size: 2.3rem;}
+    
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 999PX  +++++++++ */
+
+@media (max-width: 999px) {
+
+
+    .trainerContainer{
+        height:49rem; 
+    }
+    .trainerChield{
+    width:83rem;
+    height: 48rem;
+    }
+    
+    .trainerTitle{
+        
+        width:84rem;
+        height:9.5rem;
+
+    }
+    .trainerTitle h1{font-size: 4rem;}
+    .trainerTitle p {
+        font-size: 1.5rem;
+        padding-left: 1.2rem;
+        padding-bottom: 2rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+      .trainerImgContainer{justify-content: space-between;
+      }
+
+      .HoverGymCon,.trainerImg{
+          width:26rem;
+          height:31rem;
+      }
+     
+    .trainerImg img{width:26rem;
+    height:31rem;    
+    }
+    .trainerHover{width: 26rem;
+        height:31rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-31.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.6rem;
+    }
+    .trainerHover h3::before{
+        width:2.4rem;
+        height: .3rem;
+        top:6.5rem;
+        left:3.7rem;
+    }
+    .trainerHover h2{font-size: 3rem;}
+    .trainerHover p{width:18rem;
+    font-size: 1.5rem;
+    padding-top: .9rem;}
+    .trainerHover ul,li{
+    padding-top: .9rem;}
+    
+    .trainerHover li{padding-left: 1rem;
+    font-size: 2.1rem;}
+    
+
+    }
+
+
+
+    
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 894PX  +++++++++ */
+
+@media (max-width: 894px) {
+
+
+    .trainerContainer{
+        height:44rem; 
+    }
+    .trainerChield{
+    width:75rem;
+    height: 43rem;
+    }
+    
+    .trainerTitle{
+        width:75rem;
+        height:9rem;
+    }
+    .trainerTitle h1{font-size: 3.9rem;}
+    .trainerTitle p {
+        font-size: 1.4rem;
+        padding-left: 1.2rem;
+        padding-bottom: 2rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{justify-content: space-between;
+        
+      }
+      .HoverGymCon,.trainerImg{
+          width:23.3rem;
+          height:29rem;
+      }
+     
+    .trainerImg img{width:23.3rem;
+    height:29rem;    
+    }
+    .trainerHover{width: 23.3rem;
+        height:29rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-29.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.6rem;
+    }
+    .trainerHover h3::before{
+        width:2.4rem;
+        height: .3rem;
+        top:7rem;
+        left:2.5rem;
+    }
+    .trainerHover h2{font-size: 2.7rem;}
+    .trainerHover p{width:18rem;
+    font-size: 1.4rem;
+    padding-top: .8rem;}
+    .trainerHover ul,li{
+    padding-top: .8rem;}
+    
+    .trainerHover li{padding-left: .7rem;
+    font-size: 2rem;}
+    
+}
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 804PX  +++++++++ */
+
+@media (max-width: 804px) {
+
+
+    .trainerContainer{
+        height:42rem; 
+    }
+    .trainerChield{
+    width:68rem;
+    height: 40.5rem;
+    }
+    
+    .trainerTitle{
+        width:70rem;
+        height:9rem;
+    }
+    .trainerTitle h1{font-size: 3.8rem;}
+    .trainerTitle p {
+        font-size: 1.4rem;
+        padding-left: 1.2rem;
+        padding-bottom: 1.5rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{justify-content: space-between;
+      }
+      .HoverGymCon,.trainerImg{
+          width:21.1rem;
+          height:28rem;
+      }
+     
+    .trainerImg img{width:21.1rem;
+    height:28rem;    
+    }
+    .trainerHover{width: 21.1rem;
+        height:28rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-28.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.5rem;
+    }
+    .trainerHover h3::before{
+        width:2.3rem;
+        height: .2.2rem;
+        top:5.7rem;
+        left:1.9rem;
+    }
+    .trainerHover h2{font-size: 2.6rem;}
+    .trainerHover p{width:17rem;
+    font-size: 1.4rem;
+    padding-top: .8rem;}
+    .trainerHover ul,li{
+    padding-top: .8rem;}
+    
+    .trainerHover li{padding-left: .7rem;
+    font-size: 2rem;}
+    
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 744PX  +++++++++ */
+
+@media (max-width: 744px) {
+
+
+    .trainerContainer{
+        height:39.3rem; 
+    }
+    .trainerChield{
+    width:62rem;
+    height: 38.4rem;
+    }
+    
+    .trainerTitle{
+        width:62rem;
+        height:7.6rem;
+    }
+    .trainerTitle h1{font-size: 3.8rem;}
+    .trainerTitle p {
+        font-size: 1.4rem;
+        padding-left: 1.2rem;
+        padding-bottom: 1.5rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{justify-content: space-between;
+      }
+      .HoverGymCon,.trainerImg{
+          width:19.4rem;
+          height:26rem;
+      }
+     
+    .trainerImg img{width:19.4rem;
+    height:26rem;    
+    }
+    .trainerHover{width: 19.4rem;
+        height:26rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-26.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.5rem;
+    }
+    .trainerHover h3::before{
+        width:2rem;
+        height: .2rem;
+        top:5.1rem;
+        left:1.4rem;
+    }
+    .trainerHover h2{font-size: 2.4rem;}
+    .trainerHover p{width:16rem;
+    font-size: 1.3rem;
+    padding-top: .8rem;}
+    .trainerHover ul,li{
+    padding-top: .8rem;}
+    
+    .trainerHover li{padding-left: .7rem;
+    font-size: 2rem;}
+    
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 664PX  +++++++++ */
+
+@media (max-width: 664px) {
+
+
+    .trainerContainer{
+        height:36rem; 
+    }
+    .trainerChield{
+    width:55rem;
+    height: 35rem;
+    }
+    
+    .trainerTitle{
+        width:54rem;
+        height:7.5rem;
+    }
+    .trainerTitle h1{font-size: 3.6rem;}
+    .trainerTitle p {
+        font-size: 1.3rem;
+        padding-left: 1.2rem;
+        padding-bottom: 1.5rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{justify-content: space-between;
+       
+      }
+      .HoverGymCon,.trainerImg{
+          width:17.1rem;
+          height:23rem;
+      }
+     
+    .trainerImg img{width:17.1rem;
+    height:23rem;    
+    }
+    .trainerHover{width: 17.1rem;
+        height:23rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-23.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.3rem;
+    }
+    .trainerHover h3::before{
+        width:2rem;
+        height: .2rem;
+        top:4rem;
+        left:1.1rem;
+    }
+    .trainerHover h2{font-size: 2.1rem;}
+    .trainerHover p{width:14.2rem;
+    font-size: 1.2rem;
+    padding-top: .8rem;}
+    .trainerHover ul,li{
+    padding-top: .8rem;}
+    
+    .trainerHover li{padding-left: .4rem;
+    font-size: 1.9rem;}
+    
+}
+
+
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 599PX  +++++++++ */
+
+@media (max-width: 599px) {
+
+
+    .trainerContainer{
+        height:32rem; 
+    }
+    .trainerChield{
+    width:45rem;
+    height: 31rem;
+    }
+    
+    .trainerTitle{
+        width:45rem;
+        height:6.7rem;
+    }
+    .trainerTitle h1{font-size: 3.5rem;}
+    .trainerTitle p {
+        font-size: 1.2rem;
+        padding-left: 1.2rem;
+        padding-bottom: 1.5rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{justify-content: space-between;
+      }
+      .HoverGymCon,.trainerImg{
+          width:14rem;
+          height:20rem;
+      }
+     
+    .trainerImg img{width:14rem;
+    height:20rem;    
+    }
+    .trainerHover{width: 14rem;
+        height:20rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-20rem);
+    }
+    .trainerHover h3{
+        font-size: 1.2rem;
+    }
+    .trainerHover h3::before{
+        width:1.5rem;
+        height: .2rem;
+        top:2.7rem;
+        left:.5rem;
+    }
+    .trainerHover h2{font-size: 1.9rem;}
+    .trainerHover p{width:11.7rem;
+    font-size: 1.1rem;
+    padding-top: .7rem;}
+    .trainerHover ul,li{
+    padding-top: .7rem;}
+    
+    .trainerHover li{padding-left: .1rem;
+    font-size: 1.8rem;}
+    
+}
+
+
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 504PX  +++++++++ */
+
+@media (max-width: 504px) {
+
+
+    .trainerContainer{
+        height:30rem; 
+    }
+    .trainerChield{
+    width:41rem;
+    height: 29rem;
+    }
+    
+    .trainerTitle{
+        width:42rem;
+        height:6.7rem;
+    }
+    .trainerTitle h1{font-size: 3.5rem;}
+    .trainerTitle p {
+        font-size: 1.2rem;
+        padding-left: 1.2rem;
+        padding-bottom: 1.5rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{justify-content: space-between;
+      }
+      .HoverGymCon,.trainerImg{
+          width:12.8rem;
+          height:18rem;
+      }
+     
+    .trainerImg img{width:12.8rem;
+    height:18rem;    
+    }
+    .trainerHover{width: 12.8rem;
+        height:18rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-18rem);
+    }
+    .trainerHover h3{
+        font-size: 1.1rem;
+    }
+    .trainerHover h3::before{
+        width:1.2rem;
+        height: .2rem;
+        top:2rem;
+        left:.5rem;
+    }
+    .trainerHover h2{font-size: 1.8rem;}
+    .trainerHover p{width:11.2rem;
+    font-size: 1rem;
+    padding-top: .7rem;}
+    .trainerHover ul,li{
+    padding-top: .7rem;}
+    
+    .trainerHover li{padding-left: .1rem;
+    font-size: 1.7rem;}
+    
+}
+
+
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 454PX  +++++++++ */
+
+@media (max-width: 454px) {
+
+
+    .trainerContainer{
+        height:101rem; 
+    }
+    .trainerChield{
+    width:30rem;
+    height: 101rem;
+    }
+    
+    .trainerTitle{
+        width:30rem;
+        height:8.4rem;
+    }
+    .trainerTitle h1{font-size: 3.6rem;}
+    .trainerTitle p {
+        font-size: 1.3rem;
+        padding-left: 1.2rem;
+        padding-top: 1rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{height:89rem;
+          flex-direction: column;
+          justify-content: space-evenly;align-items: center;
+      }
+      .HoverGymCon,.trainerImg{
+          width:26rem;
+          height:27rem;
+          display:block;
+      }
+     
+    .trainerImg img{width:26rem;
+    height:27rem;    
+    }
+    .trainerHover{width: 26rem;
+        height:27rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-27.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.4rem;padding-bottom: 1rem;
+    }
+    .trainerHover h3::before{
+        width:1.7rem;
+        height: .3rem;
+        top:5.9rem;
+        left:5rem;
+    }
+    .trainerHover h2{font-size: 2.4rem;}
+    .trainerHover p{width:18.2rem;
+    font-size: 1.2rem;
+    padding-top: .9rem;}
+    .trainerHover ul,li{
+    padding-top: .9rem;}
+    
+    .trainerHover li{padding-left: .1rem;
+    font-size: 2.1rem;}
+    
+}
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 354PX  +++++++++ */
+
+@media (max-width: 354px) {
+
+
+    .trainerContainer{
+        height:88rem; 
+    }
+    .trainerChield{
+    width:27rem;
+    height: 88rem;
+    }
+    
+    .trainerTitle{
+        width:27rem;
+        height:8.6rem;
+    }
+    .trainerTitle h1{font-size: 3.6rem;}
+    .trainerTitle p {
+        font-size: 1.3rem;
+        padding-left: 1.2rem;
+        padding-top: .5rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{height:75rem;
+      }
+      .HoverGymCon,.trainerImg{
+          width:22rem;
+          height:23rem;
+         
+      }
+     
+    .trainerImg img{width:22rem;
+    height:23rem;    
+    }
+    .trainerHover{width: 22rem;
+        height:23rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-23.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.2rem;padding-bottom: .6rem;
+    }
+    .trainerHover h3::before{
+        width:1.7rem;
+        height: .2rem;
+        top:5.3rem;
+        left:4.3rem;
+    }
+    .trainerHover h2{font-size: 2.2rem;}
+    .trainerHover p{width:18.2rem;
+    font-size: 1.1rem;
+    padding-top: .9rem;}
+    .trainerHover ul,li{
+    padding-top: .9rem;}
+    
+    .trainerHover li{padding-left: .7rem;
+    font-size: 1.9rem;}
+    
+}
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 304PX  +++++++++ */
+
+@media (max-width: 304px) {
+
+
+    .trainerContainer{
+        height:81rem; 
+    }
+    .trainerChield{
+    width:26rem;
+    height: 81rem;
+    }
+    
+    .trainerTitle{
+        width:26rem;
+        height:9rem;
+    }
+    .trainerTitle h1{font-size: 3.5rem;}
+    .trainerTitle p {
+        font-size: 1.3rem;
+        padding-left: 1.2rem;
+        padding-top: .5rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{height:66rem;justify-content: space-between;
+      
+      }
+      .HoverGymCon,.trainerImg{
+          width:20rem;
+          height:21rem;
+         
+      }
+     
+    .trainerImg img{width:20rem;
+    height:21rem;    
+    }
+    .trainerHover{width: 20rem;
+        height:21rem;
+        transform: translateY(0);
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 274PX  +++++++++ */
+
+@media (max-width: 274px) {
+
+
+    .trainerContainer{
+        height:71rem; 
+    }
+    .trainerChield{
+    width:21rem;
+    height: 71rem;
+    }
+    
+    .trainerTitle{
+        width:22rem;
+        height:8.5rem;
+    }
+    .trainerTitle h1{font-size: 3.3rem;}
+    .trainerTitle p {
+        font-size: 1.2rem;
+        padding-left: 1.1rem;
+        padding-top: .5rem;
+      }
+
+
+      /* =======   GYMTrainerHoverEffect    ========= */
+
+
+      .trainerImgContainer{height:57rem;justify-content: space-between;
+      }
+      .HoverGymCon,.trainerImg{
+          width:17rem;
+          height:18rem; 
+      }
+     
+    .trainerImg img{width:17rem;
+    height:18rem;    
+    }
+    .trainerHover{width: 17rem;
+        height:18rem;
+        transform: translateY(0);
+    }
+    .trainerImg:hover .trainerHover{
+        transform: translateY(-18.2rem);
+    }
+    .trainerHover h3{
+        font-size: 1.1rem;padding-bottom: .3rem;
+    }
+    .trainerHover h3::before{
+        width:1.4rem;
+        height: .2rem;
+        top:2.1rem;
+        left:2.2rem;
+    }
+    .trainerHover h2{font-size: 2rem;}
+    .trainerHover p{width:12.5rem;
+    font-size: 1rem;
+    padding-top: .9rem;}
+    .trainerHover ul,li{
+    padding-top: .9rem;}
+    
+    .trainerHover li{padding-left: .5rem;
+    font-size: 1.8rem;}
+    
+}
+

@@ -1,0 +1,540 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+html{font-size:62.5%;}
+
+.payContainer{
+    width:100%;
+    height:50rem;
+    background:white; 
+background-image: linear-gradient( to left, yellowgreen ,black);     
+}
+.payChield{
+    width:116rem;
+    height:50rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+
+
+}
+.imgpay{width:50rem;
+height: 40rem;margin:auto;
+}
+
+.imgpay img{width:50rem;
+height:40rem;
+object-fit: cover;
+object-position:center;
+}
+.payTitle{
+    width:50rem;
+    height:39rem;
+    margin:0 auto ; 
+    margin-top: 2rem;
+    
+}
+.payTitle .payHading{
+    font-size: 4.3rem;
+    font-weight: 900;
+    color:white;
+}
+.payHading strong{color:yellow;}
+
+.payTitle .payUl{list-style: none;padding-top: 1.5rem;}
+.payUl li{font-size: 1.6rem;color:white;display: flex;
+}
+.payUl li span{padding-right: .8rem;
+font-size: 2.6rem;
+}
+.navPay{margin-top: 4rem;}
+
+
+
+
+
+
+/* [[[[[[[[   MEDIA QUERY START ]]]]]]]] */
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1290PX  +++++++++ */
+
+
+@media (max-width: 1290px) {
+.payContainer{
+    height:50rem;
+ }
+.payChield{
+    width:106rem;
+    height:50rem;
+}
+.imgpay{width:48rem;
+    height: 40rem;
+    }
+    
+    .imgpay img{width:48rem;
+    height:40rem;
+    }
+    .payTitle{
+        width:48rem;
+        height:37rem;
+        
+    }
+}
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 1110PX  +++++++++ */
+
+
+@media (max-width: 1110px) {
+
+    .payContainer{
+        height:47rem;
+     }
+    .payChield{
+        width:97rem;
+        height:47rem;
+    }
+.imgpay{width:47rem;
+height: 39rem; 
+}
+
+.imgpay img{width:47rem;
+height:39rem;
+}
+.payTitle{
+    width:43rem;
+    height:37rem;
+     
+}
+.payTitle .payHading{
+    font-size: 4.2rem;
+}
+
+.payTitle .payUl{padding-top: 1.4rem;}
+.payUl li{font-size: 1.6rem;
+}
+.payUl li span{padding-right: .8rem;
+font-size: 2.5rem;
+}
+.navPay{margin-top: 3.6rem;}
+
+}
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 999PX  +++++++++ */
+
+
+@media (max-width: 999px) {
+
+    .payContainer{
+        height:43rem;
+     }
+    .payChield{
+        width:88rem;
+        height:43rem;
+    }
+
+.imgpay,.imgpay img{width:41rem;
+height:35rem;
+}
+.payTitle{
+    width:41rem;
+    height:33rem;
+     
+}
+.payTitle .payHading{
+    font-size: 4rem;line-height: 5rem;
+}
+
+.payTitle .payUl{padding-top: 1rem;}
+.payUl li,.payUl{font-size: 1.5rem;margin-bottom: -.5rem;
+}
+.payUl li span{padding-right: .7rem;
+font-size: 2.4rem;
+}
+.navPay{margin-top: 3.4rem;}
+
+}
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 894PX  +++++++++ */
+
+
+@media (max-width: 894px) {
+
+    .payContainer{
+        height:41rem;
+     }
+    .payChield{
+        width:75rem;
+        height:41rem;
+    
+    }
+
+.imgpay,.imgpay img{width:37rem;
+height:34rem;margin:0;
+}
+.payTitle{
+    width:35rem;
+    height:28rem;margin:0;
+     
+}
+.payTitle .payHading{
+    font-size: 3.4rem;line-height: 4.4rem;
+}
+
+.payTitle .payUl{padding-top: 1rem;}
+.payUl li,.payUl{font-size: 1.5rem;margin-bottom: -.5rem;
+}
+.payUl li span{padding-right: .7rem;
+font-size: 2.4rem;
+}
+.navPay{margin-top: 3.4rem;}
+
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 803PX  +++++++++ */
+
+
+@media (max-width: 803px) {
+
+    .payContainer{
+        height:40rem;
+     }
+    .payChield{
+        width:70rem;
+        height:40rem;
+    
+    }
+
+.imgpay,.imgpay img{width:35rem;
+height:33rem;
+}
+.payTitle{
+    width:32rem;
+    height:28rem;   
+}
+.payTitle .payHading{
+    font-size: 3.3rem;line-height: 4rem;
+}
+
+.payTitle .payUl{padding-top: .2rem;}
+.payUl li,.payUl{font-size: 1.4rem;margin-bottom: -.5rem;
+}
+.payUl li span{padding-right: .6rem;
+font-size: 2.3rem;
+}
+.navPay{margin-top: 3.2rem;}
+
+}
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 744PX  +++++++++ */
+
+
+@media (max-width: 744px) {
+
+    .payContainer{
+        height:36rem;
+     }
+    .payChield{
+        width:61rem;
+        height:36rem;
+    
+    }
+
+.imgpay,.imgpay img{width:31.3rem;
+height:30rem;
+}
+.payTitle{
+    width:27rem;
+    height:29rem;  
+}
+.payTitle .payHading{
+    font-size: 3.1rem;line-height: 3.6rem;
+}
+
+.payTitle .payUl{padding-top: .0rem;}
+.payUl li,.payUl{font-size: 1.3rem;margin-bottom: -.4rem;
+}
+.payUl li span{padding-right: .6rem;
+font-size: 2.2rem;
+}
+.navPay{margin-top: 3rem;}
+
+}
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 664PX  +++++++++ */
+
+
+@media (max-width: 644px) {
+
+    .payContainer{
+        height:35rem;
+     }
+    .payChield{
+        width:55rem;
+        height:35rem;
+
+    }
+
+.imgpay,.imgpay img{width:27.4rem;
+height:29rem;
+}
+.payTitle{
+    width:25rem;
+    height:28rem;
+     
+}
+.payTitle .payHading{
+    font-size: 3.1rem;line-height: 3.6rem;
+}
+
+.payTitle .payUl{padding-top: .0rem;}
+.payUl li,.payUl{font-size: 1.3rem;margin-bottom: -.4rem;
+}
+.payUl li span{padding-right: .6rem;
+font-size: 2.2rem;
+}
+.navPay{margin-top: 2.8rem;}
+
+}
+
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 599PX  +++++++++ */
+
+
+@media (max-width: 599px) {
+
+    .payContainer{
+        height:34rem;
+     }
+    .payChield{
+        width:46.9rem;
+        height:34rem;
+    }
+
+.imgpay,.imgpay img{width:24.5rem;
+height:27rem;
+}
+.payTitle{
+    width:20rem;
+    height:26rem;
+     
+}
+.payTitle .payHading{
+    font-size: 2.8rem;line-height: 3.3rem;
+}
+.payUl li,.payUl{font-size: 1.2rem;margin-bottom: -.3rem;
+}
+.payUl li span{padding-right: .6rem;
+font-size: 2rem;
+}
+.navPay{margin-top: 2rem;}
+
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 504PX  +++++++++ */
+
+
+@media (max-width: 504px) {
+
+    .payContainer{
+        height:31rem;
+     }
+    .payChield{
+        width:42rem;
+        height:31rem;
+    }
+
+.imgpay,.imgpay img{width:22rem;
+height:25rem;
+}
+.payTitle{
+    width:18rem;
+    height:24rem;
+     
+}
+.payTitle .payHading{
+    font-size: 2.5rem;line-height: 3rem;
+}
+.payUl li,.payUl{font-size: 1.1rem;margin-bottom: -.2rem;
+}}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 454PX  +++++++++ */
+
+
+@media (max-width: 454px) {
+
+    .payContainer{
+        height:67rem;padding-top: 4rem;
+        margin:auto 0;
+     }
+    .payChield{
+        width:28rem;
+        height:60rem;
+        flex-direction: column;
+    }
+
+.imgpay,.imgpay img{width:28rem;margin:auto;
+height:30rem;
+}
+.payTitle{
+    width:28rem;
+    height:28rem;margin:auto;
+     
+}
+.payTitle .payHading{
+    font-size: 3rem;line-height: 4rem;
+}
+.payUl li,.payUl{font-size: 1.4rem;margin-bottom: -.3rem;
+}
+.payUl li span{padding-right: .6rem;
+font-size: 2.3rem;
+}
+.navPay{margin-top: 2.6rem;}
+
+.respons{
+    width:15.5rem;
+    height: 3.6rem;
+    font-size:1.5rem;   
+}
+
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 354PX  +++++++++ */
+
+
+@media (max-width: 354px) {
+
+    .payContainer{
+        height:61rem;padding-top: 4rem;
+        margin:auto 0;
+     }
+    .payChield{
+        width:27rem;
+        height:54rem;
+        flex-direction: column;
+    }
+
+.imgpay,.imgpay img{width:24rem;
+height:27rem;
+}
+.payTitle{
+    width:24rem;
+    height:26rem;   
+}
+.payTitle .payHading{
+    font-size: 2.6rem;line-height: 3.6rem;
+}
+.payUl li,.payUl{font-size: 1.3rem;margin-bottom: -.3rem;
+}
+.payUl li span{padding-right: .6rem;
+font-size: 2.3rem;
+}
+.navPay{margin-top: 2.6rem;}
+
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 304PX  +++++++++ */
+
+
+@media (max-width: 304px) {
+
+    .payContainer{
+        height:55rem;padding-top: 2.8rem;
+        margin:auto 0;
+     }
+    .payChield{
+        width:26rem;
+        height:49rem;
+        flex-direction: column;
+    }
+
+.imgpay,.imgpay img{width:23rem;
+height:24rem;
+}
+.payTitle{
+    width:23rem;
+    height:24rem;font-weight: 700;
+}
+.payTitle .payHading{
+    font-size: 2.4rem;line-height: 3.1rem;
+}
+.payUl li,.payUl{font-size: 1.3rem;margin-bottom: -.3rem;
+}
+.payUl li span{padding-right: .6rem;
+font-size: 2.3rem;
+}
+.navPay{margin-top: 2.6rem;}
+.respons{
+    width:12rem;
+    height: 2.6rem;
+    font-size:1.2rem;   
+}
+}
+
+
+
+
+/* +++++++  MEDIA SCREEN MAX-WIDTH = 274PX  +++++++++ */
+
+
+@media (max-width: 274px) {
+
+    .payContainer{
+        height:49rem;padding-top: 2.4rem;
+        margin:auto 0;
+     }
+    .payChield{
+        width:20rem;
+        height:43rem;
+        flex-direction: column;
+    
+    }
+
+.imgpay,.imgpay img{width:20rem;
+height:21rem;
+}
+.payTitle{
+    width:20rem;
+    height:21rem;
+}
+.payTitle .payHading{font-weight: 600;
+    font-size: 2.2rem;line-height: 2.8rem;
+}
+.payUl li,.payUl{font-size: 1rem;margin-bottom: -.1rem;
+}
+.payUl li span{padding-right: .6rem;
+font-size: 2rem;
+}
+.navPay{margin-top: 2.6rem;}
+.respons{
+    width:12rem;
+    height: 2.6rem;
+    font-size:1.2rem;   
+}
+}
